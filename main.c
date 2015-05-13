@@ -5,7 +5,7 @@ uint32_t Count;
 void GPIO_Configuration(void);
 void Delay(__IO uint32_t nCount);
 
-int main(void)
+//int main(void)
 {
   BoardInit();  // Configure board specific setting
   GPIO_Configuration();  /* GPIO Configuration*/
